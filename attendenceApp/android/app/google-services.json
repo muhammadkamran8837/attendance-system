@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "831043633495",
+    "project_id": "geoattendence-41967",
+    "storage_bucket": "geoattendence-41967.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831043633495:android:226ded9d35d42ff6e9be12",
+        "android_client_info": {
+          "package_name": "com.credit_capital.attendace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzsA2BmKd7MAs8oOJ1sSI5-AePX4S3LLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
