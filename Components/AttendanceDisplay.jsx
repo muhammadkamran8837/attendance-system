@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../config/Firebase"; // Ensure the path is correct to your Firebase config
-import { Skeleton } from "@/components/ui/skeleton"; // Skeleton loader component
+import { Skeleton } from "./ui/skeleton";
 import {
   Table,
   TableBody,
@@ -11,7 +11,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table"; // Your table component
+} from "./ui/table";
 
 export default function AttendanceDisplay() {
   const [attendances, setAttendances] = useState([]);

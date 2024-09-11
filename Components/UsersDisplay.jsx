@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../config/Firebase"; // Ensure correct path to Firebase config
-import { Skeleton } from "@/components/ui/skeleton"; // Skeleton loader component
+import { Skeleton } from "./ui/skeleton";
 import {
   Table,
   TableBody,
@@ -11,8 +11,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table"; // Your table component
-import Image from "next/image";
+} from "./ui/table";
 
 export default function UsersDisplay() {
   const [users, setUsers] = useState([]);
