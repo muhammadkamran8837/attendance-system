@@ -1,9 +1,10 @@
 import React from "react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+// import { Tabs, TabsContent, TabsList, TabsTrigger } from "/ui/tabs";
 import DailyReports from "@/Components/DailyReports";
 import StaffDisplay from "./StaffDisplay";
 import UsersDisplay from "./UsersDisplay";
 import AttendanceDisplay from "./AttendanceDisplay";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 
 export default function TabsComponent() {
   return (
