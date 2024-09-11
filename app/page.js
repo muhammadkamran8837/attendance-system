@@ -1,10 +1,6 @@
-import DailyReports from "@/Components/DailyReports";
+import React from "react";
+import Home from "./home/page";
 
-export default function Home() {
-  return (
-    <>
-      <h1 className="text-center"> Attendance system</h1>
-      <DailyReports />
-    </>
-  );
+export default function page() {
+  return <Home />;
 }
