@@ -1,9 +1,10 @@
+import AttendanceDisplay from "../../components/AttendanceDisplay";
+import DailyReports from "../../components/DailyReports";
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import React from "react";
-import DailyReports from "./DailyReports";
-import AttendanceDisplay from "./AttendanceDisplay";
-import StaffDisplay from "./StaffDisplay";
-import UsersDisplay from "./UsersDisplay";
+import StaffDisplay from "../../components/StaffDisplay";
+import UsersDisplay from "../../components/UsersDisplay";
 
 export default function TabsComponent() {
   return (

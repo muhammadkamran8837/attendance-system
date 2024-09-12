@@ -1,12 +1,7 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "paths": {
-      "@/components/*": ["components/*"],
-      "@/lib/*": ["lib/*"],
-      "@/components/ui/*": ["components/ui/*"], // Add this line
-      "@/hooks/*": ["hooks/*"], // Add other aliases as needed
-      "@/utils/*": ["lib/utils/*"] // Add other aliases as needed
+      "@/*": ["./*"]
     }
   }
 }

@@ -1,5 +1,5 @@
-import TabsComponent from "@/components/TabsComponent";
 import React from "react";
+import TabsComponent from "./TabsComponent";
 
 export default function Home() {
   return (
