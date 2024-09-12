@@ -1,8 +1,10 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
-import { db } from "../config/Firebase"; // Ensure the path is correct to your Firebase config
-import { Skeleton } from "./ui/skeleton";
+// Ensure the path is correct to your Firebase config
+
+import { db } from "@/config/Firebase";
+import { Skeleton } from "@/components/ui/skeleton";
 import {
   Table,
   TableBody,
@@ -11,7 +13,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "./ui/table";
+} from "@/components/ui/table";
 
 export default function AttendanceDisplay() {
   const [attendances, setAttendances] = useState([]);

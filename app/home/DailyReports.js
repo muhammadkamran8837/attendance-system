@@ -1,9 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
-import { db } from "../config/Firebase";
-
-import { Skeleton } from "./ui/skeleton";
+import { db } from "@/config/Firebase";
+import { Skeleton } from "@/components/ui/skeleton";
 import {
   Table,
   TableBody,
@@ -12,7 +11,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "./ui/table";
+} from "@/components/ui/table";
 
 export default function DailyReports() {
   const [reports, setReports] = useState([]);
