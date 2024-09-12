@@ -11,7 +11,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
+} from "@/Components/ui/table";
 
 export default function StaffDisplay() {
   const [staffs, setStaffs] = useState([]);
