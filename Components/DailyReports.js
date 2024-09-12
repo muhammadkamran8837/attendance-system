@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "@/config/Firebase";
-import { Skeleton } from "@/components/ui/skeleton";
+import { Skeleton } from "@/Components/ui/skeleton";
 import {
   Table,
   TableBody,

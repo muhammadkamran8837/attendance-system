@@ -4,7 +4,7 @@ import { collection, getDocs } from "firebase/firestore";
 // Ensure the path is correct to your Firebase config
 
 import { db } from "@/config/Firebase";
-import { Skeleton } from "@/components/ui/skeleton";
+import { Skeleton } from "@/Components/ui/skeleton";
 import {
   Table,
   TableBody,
