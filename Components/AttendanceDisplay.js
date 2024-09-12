@@ -18,6 +18,7 @@ import {
 export default function AttendanceDisplay() {
   const [attendances, setAttendances] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [xyz, setXYZ] = useState("xyz");
 
   useEffect(() => {
     const fetchAttendance = async () => {
