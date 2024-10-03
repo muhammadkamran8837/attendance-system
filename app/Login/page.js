@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-
+const EMAIL = "admin@example.com";
+const PASSWORD = "fyp2024";
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -11,9 +12,6 @@ export default function Login() {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    const adminEmail = process.env.NEXT_PUBLIC_ADMIN_EMAIL;
-    const adminPassword = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
-
     setError(""); // Reset previous error state
     setLoading(true);
 
@@ -23,7 +21,7 @@ export default function Login() {
       return;
     }
 
-    if (email === adminEmail && password === adminPassword) {
+    if (email === EMAIL && password === PASSWORD) {
       localStorage.setItem("isLoggedIn", "true"); // Set the login flag
 
       setLoading(false);
