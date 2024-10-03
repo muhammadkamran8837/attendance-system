@@ -1,6 +1,7 @@
 import AttendanceDisplay from "@/Components/AttendanceDisplay";
 import DailyReports from "@/Components/DailyReports";
 import StaffDisplay from "@/Components/StaffDisplay";
+import Tasks from "@/Components/Tasks";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/Components/ui/tabs";
 import UsersDisplay from "@/Components/UsersDisplay";
 import React from "react";
@@ -13,6 +14,7 @@ export default function TabsComponent() {
         <TabsTrigger value="Attendance">Attendance</TabsTrigger>
         <TabsTrigger value="Staff">Staff</TabsTrigger>
         <TabsTrigger value="Users">Users</TabsTrigger>
+        <TabsTrigger value="Tasks">Tasks</TabsTrigger>
       </TabsList>
       <div className="border-solid border-[1px] rounded-md border-slate-200 px-5 mt-2 h-[85vh] overflow-y-auto">
         <TabsContent value="dailyReports">
@@ -26,6 +28,9 @@ export default function TabsComponent() {
         </TabsContent>
         <TabsContent value="Users">
           <UsersDisplay />
+        </TabsContent>
+        <TabsContent value="Tasks">
+          <Tasks />
         </TabsContent>
       </div>
     </Tabs>
